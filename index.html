@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaieata</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <h2>MAURI!</h2>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#project">Projects</a>
+                    <a href="#Information">Information</a>
+                </div>
+                <button class="mobile-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="FB_IMG_1710944574168.jpg" alt="Profile">
+                </div>
+                <div class="hero-text">
+                    <h1>Hello, I'm <span>Kaieata</span></h1>
+                    <p>I am an experienced IT Specialist with a specialized focus on Cybersecurity, Networking, and Hardware. I bring a deep understanding of IT systems,
+                        backed by extensive experience in troubleshooting and resolving complex technical issues. My skill set allows me to provide innovative solutions 
+                        for diverse challenges, ensuring optimal performance and security. Additionally, I leverage my expertise to incorporate creative web design principles, 
+                        seamlessly integrating user-centric design with advanced technology to create intuitive, secure, and visually engaging digital experiences..</p>
+                    <blockquote>
+                        <span id="typed-quote"></span>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies" id="services">
+        <div class="container">
+            <div class="tech-content">
+                <div class="tech-info">
+                    <h3>JOURNERY</h3>
+                    <hr>
+                    <br>
+                    <h2>Overcoming Challenges & Achieving Success</h2>
+                    <p>Throughout my secondary school years, I faced various challenges that tested my resilience and determination. <br> Despite these obstacles, I set clear goals and worked hard to develop both academically and personally, especially in the field of technology and creativity.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <br>
+                            <h3>Building a Strong Foundation</h3>
+                            <p>I aimed to excel academically while exploring new technologies, particularly AI tools, to enhance my creativity and strategic thinking.</p>
+                        </div>
+                        <div class="feature">
+                            <br>
+                            <h3>Learning Through Struggles</h3>
+                            <p>Initially, understanding AI and coding was a struggle, but persistence and consistent effort allowed me to master these skills and apply them in various projects.</p>
+                        </div>
+                        <div class="feature">
+                            <br>
+                            <h3>Creative Successes</h3>
+                            <p>By embracing AI tools, I generated innovative song ideas, created concepts, and explored new ways of thinking, which contributed to both personal and academic achievements.</p>
+                        </div>
+                        <div class="feature">
+                            <br>
+                            <h3>Unlimited Possibilities</h3>
+                            <p>The flexibility to work on projects anytime, anywhere, gave me the freedom to explore my creative potential and find success in both schoolwork and personal projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Technologies Section -->
+        <section class="technologies" id="services">
+            <div class="container">
+                <div class="tech-content">
+                    <div class="tech-info">
+                        <h3>EXPERIENCE WITH TECHNOLOGY</h3>
+                        <hr>
+                        <br>
+                        <h2>AI Tools</h2>
+                        <p>I've gained valuable experience using AI tools that have expanded my ability to think creatively and strategically in various areas,
+                            like generating song-planning strategies and developing commercial concepts.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <br>
+                                <h3>Add Music Effortlessly</h3>
+                                <p>Curate and add tracks to my personal music library using Coding</p>
+                            </div>
+                            <div class="feature">
+                                <br>
+                                <h3>Generate Song Ideas</h3>
+                                <p>Use AI to effortlessly create new song concepts and melodies with Python and JavaScript</p>
+                            </div>
+                            <div class="feature">
+                                <br>
+                                <h3>Create Anytime, Anywhere</h3>
+                                <p>Access your music creation tools on any device, at any time</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Music Player -->
+                    <div class="music-player">
+                        <div class="phone-frame">
+                            <div class="now-playing">
+                                <h3>Now Playing</h3>
+                                <h2 id="current-song-title">Through Phone</h2>
+                                <p id="current-song-artist">Kaieata</p>
+                            </div>
+                            <div class="playlist" id="playlist">
+                                <!-- Playlist items will be added here by JavaScript -->
+                            </div>
+                            <div class="controls">
+                                <div class="main-controls">
+                                    
+                                <audio id="audio-player" controls>
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <hr><br>
+    <div class="gallery-container">
+      <div class="gallery-item" onclick="openModal('Project 1', 'Kakakiboti.', '1.mp4')">
+        <img src="vodafone.template.png" alt="Image 1">
+      </div>
+      <div class="gallery-item" onclick="openModal('Project 2', 'Kakakiboti.', '1.mp4')">
+        <img src="tourisim with location.png" alt="Image 2">
+      </div>
+      <div class="gallery-item" onclick="openModal('Project 3', 'Kakakiboti.', '1.mp4')">
+        <img src="kiribatiproject.png" alt="Image 3">
+      </div>
+      <div class="gallery-item" onclick="openModal('Project 4', 'Kakakiboti.', '1.mp4')">
+        <img src="barber.png" alt="Image 4">
+      </div>
+    </div>
+    <br><hr><br>
+  </section>
+
+  <!-- Modal Section (for image zoom, description, and video) -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <div class="video-container">
+        <video id="modalVideo" class="modal-video" controls></video>
+      </div>
+      <div class="description-container">
+        <h2 id="modalDescriptionTitle">Title</h2>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Academic Background</h3>
+                    <ul>
+                        <li>Information Technology</li>
+                        <li>Network Security </li>
+                        <li>Advanced Cybersecurity Program</li>
+                        <li>Web Developer Full-Stack</li>
+                    </ul>
+                </div>
+
+                <div id="Information" class="footer-section">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li><img src="files.png"width=105px alt=""></li>
+                        <li><p>For Secure Information <br> Please Contact me for password</p></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><img src="contact1.png"width=105px alt=""></li>
+                        <li><p>Available Anytime</p></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Kaieata. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
