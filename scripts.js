@@ -88,9 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Playlist Functionality
         const playlist = [
-            { title: "Creation", artist: "Chat.GPT ft DeepSeek", file: "Te Kai bwara room (1).mp3" },
-            { title: "Fika mai le pese Kiribati Cover", artist: "Garden Rootz", file: "Mwamwatie.mp3" },
-            { title: "Beat", artist: "Fav-song", file: "Dj_Settler_Project_-_Le..mp3" },
+            { title: "Creation", artist: "Chat.GPT ft DeepSeek", file: "Te Kai bwara room (1).mp3" }
         ];
         
         const playlistElement = document.getElementById('playlist');
