@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Playlist Functionality
         const playlist = [
-            { title: "Creation", artist: "Chat.GPT ft DeepSeek", file: "Te Kai bwara room (1).mp3" }
+            { title: "Creation", artist: "Chat.GPT ft DeepSeek", file: "Te Kai bwara room (1).mp3" },
+            { title: "Kouben Impacts", artist: "AI Tool", file: "Koupen Impacts song.mp3" }
         ];
         
         const playlistElement = document.getElementById('playlist');
